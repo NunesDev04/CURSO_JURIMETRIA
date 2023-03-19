@@ -1,0 +1,1 @@
+sequencia <- tjsp::cnj_sequencial(1, 20000, 2022, 8, 19, 1 )
