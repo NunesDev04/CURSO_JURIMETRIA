@@ -31,7 +31,7 @@ partes <- partes |>
 
 partes <- partes |> 
   mutate(tipo_parte = case_when(
-    str_d1etect(tipo_parte, "d") ~ "reqd", 
+    str_detect(tipo_parte, "d") ~ "reqd", 
     TRUE ~ "reqt" 
   ))
 
